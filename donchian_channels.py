@@ -1,6 +1,5 @@
 # Donchian Channels
 
-
 def donchian_channels(high_price, low_price, period):
     channels = []
     upper_band = []
