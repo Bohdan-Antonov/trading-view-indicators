@@ -1,6 +1,5 @@
 # On Balance Volume
 
-
 def on_balance_volume(close_price, volume):
     obv_values = []
     obv = 0
