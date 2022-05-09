@@ -1,5 +1,7 @@
 import sma
 
+# Exponential Moving Average 
+
 def exponential_moving_average(data, period):
     ma_list = sma.moving_average(data, period)
     multiplier = 2 / (period + 1)
