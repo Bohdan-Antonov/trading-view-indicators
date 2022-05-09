@@ -1,6 +1,5 @@
 # Simple Moving Average
 
-
 def moving_average(close_price, period):
     sma_values = []
     for i in range(len(close_price)):
