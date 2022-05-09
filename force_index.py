@@ -1,6 +1,5 @@
 # Elder's Force Index
 
-
 def force_index(close_price, volume):
     force_index_values = []
     for i in range(len(close_price)):
