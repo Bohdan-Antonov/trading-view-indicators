@@ -1,6 +1,5 @@
 import ema
 
-
 def macd(close, fast=12, slow=26):
     ema_slow = ema.exponential_moving_average(close, slow)
     ema_fast = ema.exponential_moving_average(close, fast)[-len(ema_slow):]
