@@ -1,8 +1,6 @@
 import pandas
 
-
 # True Range
-
 
 def true_range(high_price, low_price, close_price):
     x = high_price - low_price
@@ -16,9 +14,7 @@ def true_range(high_price, low_price, close_price):
         tr = z
     return tr
 
-
 # Average True Range
-
 
 def average_true_range(low_price, close_price, period):
     x = 1
